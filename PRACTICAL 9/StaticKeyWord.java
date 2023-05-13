@@ -1,6 +1,6 @@
 public class StaticKeyWord {
 
-    static String s = "Hey There";
+    String s = "Hey There";
 
     static void showdata(){
         System.out.println(20);

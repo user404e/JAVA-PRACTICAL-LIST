@@ -6,7 +6,6 @@ class Demo{
         this.num = num;
          // using this keyword which reffer current object  , the value will be assigned.
     }
-
 }
 
 public class ThisKeyWord {
