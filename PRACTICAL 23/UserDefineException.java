@@ -23,7 +23,7 @@ public class UserDefineException{
                 System.out.println("\n" + a/b);
             }
         } catch (DivideByZero e) {
-           System.out.println("Message = " + e);
+           
         }
     }
 }

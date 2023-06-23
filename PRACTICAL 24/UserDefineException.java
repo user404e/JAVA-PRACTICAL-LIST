@@ -27,7 +27,7 @@ public class UserDefineException {
         Bank b = new Bank();
         System.out.println("Deposited Amount = " + b.deposit(25000));
         try {
-            System.out.print("Widthraw Amount = 20000 | ");
+            System.out.print("\nWidthraw Amount = 20000 | ");
             System.out.println("Remaining Amount = " + b.withdraw(20000));
             System.out.print("Widthraw Amount = 4000  | ");
             System.out.println("Remaining Amount = " + b.withdraw(4000));
@@ -35,7 +35,7 @@ public class UserDefineException {
             System.out.println("Remaining Amount = " + b.withdraw(2000));
             
         } catch (NotSufficientFund e) {
-            
+
         }
     }
 }
